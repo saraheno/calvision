@@ -45,6 +45,8 @@ it will generate files for job submission.
 
 Then do `source submit_condor.sh` to submit jobs. 
 
+The line `getenv=True` in `temp_jdl.sh` sets the batch environment the same as current environment. So don't forget to do `source g4env.sh` before you try to submit jobs. 
+
 More Branches could be added in `CreateTree.cc` and filled in `SteppingAction.cc`. 
 
 
